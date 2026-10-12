@@ -1,0 +1,16 @@
+export const tableNames = {
+  testing: 'testing',
+  deals: 'deals',
+  dealFiles: 'deal_files',
+  dealStages: 'deal_stages',
+  sourceDeals: 'source_deals',
+  sourceDealFiles: 'source_deal_files',
+  fileClassifications: 'file_classifications',
+  dealAuditLogs: 'deal_audit_logs',
+  aiProcessingJobs: 'ai_processing_jobs',
+  aiDealParameterResults: 'ai_deal_parameter_results',
+  evaluationFrameworks: 'evaluation_frameworks',
+  evaluationCategories: 'evaluation_categories',
+  evaluationParameters: 'evaluation_parameters',
+  evaluationComments: 'evaluation_comments',
+};

@@ -1,0 +1,14 @@
+node_modules
+.DS_Store
+.vscode
+logs
+reports/*
+run.sh
+dist/
+uploads/
+.docs
+.env
+.env.*
+!.env.example
+/config/config.json
+docker-compose.yml
