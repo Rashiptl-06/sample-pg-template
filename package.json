@@ -12,7 +12,7 @@
     "eslint": "eslint 'src/*/*.ts'",
     "format": "prettier --write .",
     "fix-eslint": "eslint 'src/*/*.ts' --fix",
-    "test": "nyc mocha --require ts-node/register test/*/*.spec.ts",
+    "test": "mocha --require ts-node/register test/*/*.spec.ts",
     "db:migrate:up": "sequelize-cli db:migrate",
     "db:migrate:down": "sequelize-cli db:migrate:undo",
     "db:seed": "sequelize-cli db:seed:all"
