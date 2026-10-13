@@ -9,7 +9,7 @@
     "start": "node dist",
     "prodstart": "NODE_ENV=production && yarn start",
     "type-check": "tsc --noEmit",
-    "eslint": "eslint 'src/*/*.ts'",
+    "eslint": "eslint \"src/*/*.ts\"",
     "format": "prettier --write .",
     "fix-eslint": "eslint 'src/*/*.ts' --fix",
     "test": "mocha --require ts-node/register test/*/*.spec.ts",

@@ -12,3 +12,4 @@ uploads/
 !.env.example
 /config/config.json
 docker-compose.yml
+.nyc_output/
