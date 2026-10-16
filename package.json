@@ -13,6 +13,8 @@
     "format": "prettier --write .",
     "fix-eslint": "eslint 'src/*/*.ts' --fix",
     "test": "mocha --require ts-node/register test/*/*.spec.ts",
+    
+    "test:coverage": "nyc --reporter=text --reporter=html npm test",
     "db:migrate:up": "sequelize-cli db:migrate",
     "db:migrate:down": "sequelize-cli db:migrate:undo",
     "db:seed": "sequelize-cli db:seed:all"
